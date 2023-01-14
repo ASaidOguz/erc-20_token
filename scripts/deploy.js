@@ -24,7 +24,7 @@ async function main() {
   console.log("Token Deploy address:",token.address)
 
  /*  How to verify a deployed ERC-20 smart contract :
-  npx hardhat verify --network goerli 0xFDCf672f951C294d208590643a6DDa4573767152 
+  npx hardhat verify --network goerli <contract address> 
   --contract contracts/AEASOToken.sol:AEASOToken 
 
   Address and location of the smart contract added like this above and dont forget to 
