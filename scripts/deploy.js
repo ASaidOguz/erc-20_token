@@ -22,7 +22,7 @@ async function main() {
   const token=await Token.deploy();
 
   console.log("Token Deploy address:",token.address)
-
+ //AEASOToken contract address 0xFDCf672f951C294d208590643a6DDa4573767152
  /*  How to verify a deployed ERC-20 smart contract :
   npx hardhat verify --network goerli <contract address> 
   --contract contracts/AEASOToken.sol:AEASOToken 
